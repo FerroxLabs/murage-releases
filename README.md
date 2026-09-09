@@ -16,7 +16,9 @@ Murage brings your agents, conversations, tasks and approvals into one workspace
 
 ## Download
 
-**[Murage 0.1.46 — release notes and versioned downloads](https://github.com/FerroxLabs/murage-releases/releases/tag/v0.1.46)**
+**Fuigo is built into the desktop installers for Mac, Windows and Linux.** Install Murage, then connect your provider account or API key. You do not need a JavaScript toolchain or an `npm install` command.
+
+**[Latest release and release notes](https://github.com/FerroxLabs/murage-releases/releases/latest)**
 
 These direct links always download the latest public release:
 
@@ -33,10 +35,10 @@ macOS packages are signed and notarized. The Windows installer, application and 
 ### Install and start
 
 1. **macOS:** open the DMG and move Murage to Applications. **Windows:** run the installer. **Ubuntu:** install the DEB with `sudo apt install ./Murage-amd64.deb`, or run `chmod +x Murage.AppImage` and open the AppImage.
-2. Open Murage and configure an engine in Settings. **Fuigo 1.0.4 is included**; other CLI engines need their own installation and login.
+2. Open Murage and configure an engine in Settings. **Fuigo is included**; other CLI engines need their own installation and login.
 3. Choose an engine and model for your Ember, then start a conversation. Review permission requests before approving actions.
 
-**Installed desktop builds do not require Node.js or pnpm.** Model access is separate: use the login or API credentials required by your chosen provider. Provider charges and subscription eligibility still apply.
+**Installed desktop builds require no Node.js, npm, pnpm or separate Fuigo installation.** Model access is separate: use the login or API credentials required by your chosen provider. Provider charges and subscription eligibility still apply.
 
 ## What it does
 
