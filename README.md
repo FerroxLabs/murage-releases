@@ -20,6 +20,8 @@ Murage brings your agents, conversations, tasks and approvals into one workspace
 
 **[Latest release and release notes](https://github.com/FerroxLabs/murage-releases/releases/latest)**
 
+**Windows 0.1.49** is a focused installer and startup hotfix. Fuigo 1.0.8 remains bundled. The reported `-32603` engine errors and exit code `1073807364` remain under investigation.
+
 These direct links always download the latest public release:
 
 | Platform | Download |
@@ -62,7 +64,7 @@ Review a Product Launch team before adding it. These screenshots use fictional d
 
 ## Current limits
 
-- **Windows:** the built-in browser remains disabled because of an upstream Electron sandbox issue.
+- **Windows:** see [release notes](https://github.com/FerroxLabs/murage-releases/releases/latest) for Windows verification and known limitations.
 - **Ubuntu:** the desktop app supports GNOME Xorg and Wayland, but local computer control is currently restricted to Xorg. Linux dictation and ARM64 packages are unavailable.
 - **External channels:** messaging channels are not yet a verified end-to-end Murage feature; Slack, WhatsApp and similar services cannot be assumed supported because an underlying engine supports them. Fuigo's scoped Murage tool discovery, real calls, approval/cancellation and inherited configuration have been verified separately.
 - Broader cloud onboarding and complete installation-recovery acceptance remain ongoing work. The retired native iOS companion was never released.
