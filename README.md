@@ -20,7 +20,9 @@ Murage brings your agents, conversations, tasks and approvals into one workspace
 
 **[Latest release and release notes](https://github.com/FerroxLabs/murage-releases/releases/latest)**
 
-**Murage 0.1.50** brings clearer onboarding, a persistent Inbox, saved Files and reports, managed memory, independent conversation controls and native Fuigo updates. **Fuigo 1.0.10 is included.** See the [latest release notes](https://github.com/FerroxLabs/murage-releases/releases/latest) for the complete changes and platform verification.
+**Murage 0.1.51** restores parallel conversations across different agents using Auto or This computer. An agent working on a reply no longer reserves the desktop for its entire turn. Actual desktop tool calls remain exclusive, and each agent's default browser profile stays separate.
+
+The release retains clearer onboarding, a persistent Inbox, saved Files and reports, managed memory, independent conversation controls and native Fuigo updates. **Fuigo 1.0.10 is included.** See the [latest release notes](https://github.com/FerroxLabs/murage-releases/releases/latest) for the complete changes and platform verification.
 
 These direct links always download the latest public release:
 
