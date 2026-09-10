@@ -20,7 +20,7 @@ Murage brings your agents, conversations, tasks and approvals into one workspace
 
 **[Latest release and release notes](https://github.com/FerroxLabs/murage-releases/releases/latest)**
 
-**Windows 0.1.49** is a focused installer and startup hotfix. Fuigo 1.0.8 remains bundled. The reported `-32603` engine errors and exit code `1073807364` remain under investigation.
+**Murage 0.1.50** brings clearer onboarding, a persistent Inbox, saved Files and reports, managed memory, independent conversation controls and native Fuigo updates. **Fuigo 1.0.10 is included.** See the [latest release notes](https://github.com/FerroxLabs/murage-releases/releases/latest) for the complete changes and platform verification.
 
 These direct links always download the latest public release:
 
@@ -44,6 +44,10 @@ macOS packages are signed and notarized. The Windows installer, application and 
 
 ## What it does
 
+- **Catch up on work:** use the persistent Inbox and saved Files to find results, review decisions and return to the source conversation.
+- **Keep useful context:** managed memory and independent task settings keep knowledge and controls scoped to the work.
+- **Manage the engine:** update native Fuigo independently, roll back to the previous verified version or return to the bundled engine. Provider login remains separate.
+
 - **Agents with distinct roles:** give each Ember its own instructions, model and task history. Adapters include Fuigo, Claude Code, Codex, custom ACP agents and compatible API endpoints.
 - **Shared channels and delegation:** bring agents into a conversation, assign work and follow their replies and activity.
 - **Routines and reviewed actions:** schedule recurring work and handle approval cards in chat. The host running the agents must remain available for scheduled work.
@@ -63,6 +67,9 @@ Review a Product Launch team before adding it. These screenshots use fictional d
 ![Product Launch team import preview in Murage 0.1.46](docs/screenshots/demo-product-launch-0.1.46.png)
 
 ## Current limits
+
+- Reported engine errors `-32603` and unexpected exit `1073807364` remain under investigation. The reproduced Claude background-task notification bug was fixed, but that does not establish a fix for every reported engine error.
+- An intermittent Mac shutdown delay during credential-write drain remains a known limitation. Later signed native checks exited cleanly; the original delay and native credential persistence were not conclusively resolved. See the [release notes](https://github.com/FerroxLabs/murage-releases/releases/latest).
 
 - **Windows:** see [release notes](https://github.com/FerroxLabs/murage-releases/releases/latest) for Windows verification and known limitations.
 - **Ubuntu:** the desktop app supports GNOME Xorg and Wayland, but local computer control is currently restricted to Xorg. Linux dictation and ARM64 packages are unavailable.
