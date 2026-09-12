@@ -20,7 +20,7 @@ Murage brings your agents, conversations, tasks and approvals into one workspace
 
 **[Latest release and release notes](https://github.com/FerroxLabs/murage-releases/releases/latest)**
 
-**Murage 0.1.52** gives every agent a Workspace pane beside the chat where you can see and edit its files, lets an agent ask you a real question and get a real answer, brings local models in as a first-class setup, moves connected apps onto your FluxRouter account, and adds inline images, audio and video with saved-file cards shown right in the chat. Stop means stop on every engine, and all seven language packs are complete.
+**Murage 0.1.53** is a hotfix over 0.1.52: after Stop, or after the Claude engine auto-retried, a turn now settles and the next message goes through instead of leaving the bot busy, refusing saves or dropping the message. The release keeps everything 0.1.52 added: a Workspace pane beside the chat where you can see and edit each agent's files, agents that ask you a real question and get a real answer, local models as a first-class setup, connected apps on your FluxRouter account, and inline images, audio and video with saved-file cards shown right in the chat. Stop means stop on every engine, and all seven language packs are complete.
 
 The release retains parallel conversations across agents, clearer onboarding, a persistent Inbox, saved Files and reports, managed memory, independent conversation controls and native Fuigo updates. **Fuigo 1.0.13 is included.** See the [latest release notes](https://github.com/FerroxLabs/murage-releases/releases/latest) for the complete changes and platform verification.
 
